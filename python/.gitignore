@@ -1,0 +1,39 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.swp
+
+# Virtual environment directories
+venv/
+env/
+myenv/
+
+# Python distribution and packaging
+*.egg-info/
+dist/
+build/
+
+# FastAPI-related settings (e.g., if you're using Uvicorn)
+*.log
+
+# Cloudinary configuration or other sensitive information
+.env
+
+# Pytest cache
+.pytest_cache/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings and caches
+.vscode/
+.history/
+
+# MacOS specific files
+.DS_Store
+
+# PyCharm settings
+.idea/
